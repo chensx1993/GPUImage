@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+
+
+def totalPods
+    pod 'AFNetworking', '~> 3.0.0’
+    pod 'GPUImage', '~> 0.1.7'
+ 
+end
+
+target ’GPUImage’ do
+    totalPods
+end

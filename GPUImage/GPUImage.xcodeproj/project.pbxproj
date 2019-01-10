@@ -15,6 +15,16 @@
 		7BFB529420CC24C5006F66C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFB529320CC24C5006F66C0 /* main.m */; };
 		7BFB529E20CC24C5006F66C0 /* GPUImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFB529D20CC24C5006F66C0 /* GPUImageTests.m */; };
 		7BFB52A920CC24C5006F66C0 /* GPUImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFB52A820CC24C5006F66C0 /* GPUImageUITests.m */; };
+		B4AC12FA55B9C9419F64068D /* libPods-GPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFF2601799FE97B558ECB62 /* libPods-GPUImage.a */; };
+		CD04008221D38559006AE8AA /* Threshold.fsh in Resources */ = {isa = PBXBuildFile; fileRef = CD04008121D38559006AE8AA /* Threshold.fsh */; };
+		CD04008421D38654006AE8AA /* PositionColor.fsh in Resources */ = {isa = PBXBuildFile; fileRef = CD04008321D38654006AE8AA /* PositionColor.fsh */; };
+		CD04008921D4E763006AE8AA /* SXSimpleImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD04008821D4E763006AE8AA /* SXSimpleImageViewController.m */; };
+		CD04008C21D4E9B7006AE8AA /* Lambeau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD04008A21D4E9B7006AE8AA /* Lambeau.jpg */; };
+		CD04008D21D4E9B7006AE8AA /* WID-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD04008B21D4E9B7006AE8AA /* WID-small.jpg */; };
+		CD04009221D62E4E006AE8AA /* SXPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD04009121D62E4E006AE8AA /* SXPhotoViewController.m */; };
+		CD1CBBF821CA3C670009AAC6 /* SXTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1CBBF721CA3C670009AAC6 /* SXTabbarController.m */; };
+		CD1CBBFC21CA3D230009AAC6 /* SXImageFilteringBenchmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1CBBFB21CA3D230009AAC6 /* SXImageFilteringBenchmarkViewController.m */; };
+		CD1CBC0221CCF03F0009AAC6 /* SXColorTrackingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1CBC0121CCF03F0009AAC6 /* SXColorTrackingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5AFF2601799FE97B558ECB62 /* libPods-GPUImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPUImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BFB528120CC24C5006F66C0 /* GPUImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPUImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BFB528420CC24C5006F66C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7BFB528520CC24C5006F66C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,22 @@
 		7BFB52A420CC24C5006F66C0 /* GPUImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BFB52A820CC24C5006F66C0 /* GPUImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUImageUITests.m; sourceTree = "<group>"; };
 		7BFB52AA20CC24C5006F66C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB34A9A512F89462E89F4031 /* Pods-GPUImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImage/Pods-GPUImage.release.xcconfig"; sourceTree = "<group>"; };
+		CD04008121D38559006AE8AA /* Threshold.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Threshold.fsh; sourceTree = "<group>"; };
+		CD04008321D38654006AE8AA /* PositionColor.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = PositionColor.fsh; sourceTree = "<group>"; };
+		CD04008721D4E763006AE8AA /* SXSimpleImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXSimpleImageViewController.h; sourceTree = "<group>"; };
+		CD04008821D4E763006AE8AA /* SXSimpleImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXSimpleImageViewController.m; sourceTree = "<group>"; };
+		CD04008A21D4E9B7006AE8AA /* Lambeau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lambeau.jpg; sourceTree = "<group>"; };
+		CD04008B21D4E9B7006AE8AA /* WID-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WID-small.jpg"; sourceTree = "<group>"; };
+		CD04009021D62E4E006AE8AA /* SXPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPhotoViewController.h; sourceTree = "<group>"; };
+		CD04009121D62E4E006AE8AA /* SXPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPhotoViewController.m; sourceTree = "<group>"; };
+		CD1CBBF621CA3C670009AAC6 /* SXTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXTabbarController.h; sourceTree = "<group>"; };
+		CD1CBBF721CA3C670009AAC6 /* SXTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXTabbarController.m; sourceTree = "<group>"; };
+		CD1CBBFA21CA3D230009AAC6 /* SXImageFilteringBenchmarkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXImageFilteringBenchmarkViewController.h; sourceTree = "<group>"; };
+		CD1CBBFB21CA3D230009AAC6 /* SXImageFilteringBenchmarkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXImageFilteringBenchmarkViewController.m; sourceTree = "<group>"; };
+		CD1CBC0021CCF03F0009AAC6 /* SXColorTrackingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXColorTrackingViewController.h; sourceTree = "<group>"; };
+		CD1CBC0121CCF03F0009AAC6 /* SXColorTrackingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXColorTrackingViewController.m; sourceTree = "<group>"; };
+		E3DC04DB45CC112CD13C39E2 /* Pods-GPUImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImage/Pods-GPUImage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4AC12FA55B9C9419F64068D /* libPods-GPUImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +113,8 @@
 				7BFB529C20CC24C5006F66C0 /* GPUImageTests */,
 				7BFB52A720CC24C5006F66C0 /* GPUImageUITests */,
 				7BFB528220CC24C5006F66C0 /* Products */,
+				8CDE9EB4867D6A388F0A89F6 /* Pods */,
+				85857C08F1EBB0B11863F846 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +131,13 @@
 		7BFB528320CC24C5006F66C0 /* GPUImage */ = {
 			isa = PBXGroup;
 			children = (
+				CD04008F21D62E32006AE8AA /* SimplePhotoFilter */,
+				CD04008621D4E723006AE8AA /* SimpleImageFilter */,
+				CD04008021D38523006AE8AA /* Shaders */,
+				CD1CBBFF21CCF0090009AAC6 /* ColorObjectTracking */,
+				CD1CBBFD21CA3D5F0009AAC6 /* Resource */,
+				CD1CBBF921CA3CC60009AAC6 /* Benchmark */,
+				CD1CBBF521CA3C1A0009AAC6 /* Tabbar */,
 				7BFB528420CC24C5006F66C0 /* AppDelegate.h */,
 				7BFB528520CC24C5006F66C0 /* AppDelegate.m */,
 				7BFB528720CC24C5006F66C0 /* ViewController.h */,
@@ -132,6 +169,86 @@
 			path = GPUImageUITests;
 			sourceTree = "<group>";
 		};
+		85857C08F1EBB0B11863F846 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AFF2601799FE97B558ECB62 /* libPods-GPUImage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CDE9EB4867D6A388F0A89F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3DC04DB45CC112CD13C39E2 /* Pods-GPUImage.debug.xcconfig */,
+				CB34A9A512F89462E89F4031 /* Pods-GPUImage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD04008021D38523006AE8AA /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				CD04008121D38559006AE8AA /* Threshold.fsh */,
+				CD04008321D38654006AE8AA /* PositionColor.fsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		CD04008621D4E723006AE8AA /* SimpleImageFilter */ = {
+			isa = PBXGroup;
+			children = (
+				CD04008721D4E763006AE8AA /* SXSimpleImageViewController.h */,
+				CD04008821D4E763006AE8AA /* SXSimpleImageViewController.m */,
+			);
+			path = SimpleImageFilter;
+			sourceTree = "<group>";
+		};
+		CD04008F21D62E32006AE8AA /* SimplePhotoFilter */ = {
+			isa = PBXGroup;
+			children = (
+				CD04009021D62E4E006AE8AA /* SXPhotoViewController.h */,
+				CD04009121D62E4E006AE8AA /* SXPhotoViewController.m */,
+			);
+			path = SimplePhotoFilter;
+			sourceTree = "<group>";
+		};
+		CD1CBBF521CA3C1A0009AAC6 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				CD1CBBF621CA3C670009AAC6 /* SXTabbarController.h */,
+				CD1CBBF721CA3C670009AAC6 /* SXTabbarController.m */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		CD1CBBF921CA3CC60009AAC6 /* Benchmark */ = {
+			isa = PBXGroup;
+			children = (
+				CD1CBBFA21CA3D230009AAC6 /* SXImageFilteringBenchmarkViewController.h */,
+				CD1CBBFB21CA3D230009AAC6 /* SXImageFilteringBenchmarkViewController.m */,
+			);
+			path = Benchmark;
+			sourceTree = "<group>";
+		};
+		CD1CBBFD21CA3D5F0009AAC6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CD04008A21D4E9B7006AE8AA /* Lambeau.jpg */,
+				CD04008B21D4E9B7006AE8AA /* WID-small.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CD1CBBFF21CCF0090009AAC6 /* ColorObjectTracking */ = {
+			isa = PBXGroup;
+			children = (
+				CD1CBC0021CCF03F0009AAC6 /* SXColorTrackingViewController.h */,
+				CD1CBC0121CCF03F0009AAC6 /* SXColorTrackingViewController.m */,
+			);
+			path = ColorObjectTracking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BFB52AD20CC24C5006F66C0 /* Build configuration list for PBXNativeTarget "GPUImage" */;
 			buildPhases = (
+				1F2A0076B9FFA9A62E3E05ED /* [CP] Check Pods Manifest.lock */,
 				7BFB527D20CC24C5006F66C0 /* Sources */,
 				7BFB527E20CC24C5006F66C0 /* Frameworks */,
 				7BFB527F20CC24C5006F66C0 /* Resources */,
+				1139ABBBDBDFC499948795BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +313,7 @@
 		7BFB527920CC24C5006F66C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SX;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "陈思欣";
 				TargetAttributes = {
@@ -239,7 +359,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BFB529120CC24C5006F66C0 /* LaunchScreen.storyboard in Resources */,
+				CD04008221D38559006AE8AA /* Threshold.fsh in Resources */,
 				7BFB528E20CC24C5006F66C0 /* Assets.xcassets in Resources */,
+				CD04008C21D4E9B7006AE8AA /* Lambeau.jpg in Resources */,
+				CD04008D21D4E9B7006AE8AA /* WID-small.jpg in Resources */,
+				CD04008421D38654006AE8AA /* PositionColor.fsh in Resources */,
 				7BFB528C20CC24C5006F66C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,13 +384,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1139ABBBDBDFC499948795BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GPUImage/Pods-GPUImage-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImage/Pods-GPUImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F2A0076B9FFA9A62E3E05ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPUImage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7BFB527D20CC24C5006F66C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD04008921D4E763006AE8AA /* SXSimpleImageViewController.m in Sources */,
+				CD1CBBFC21CA3D230009AAC6 /* SXImageFilteringBenchmarkViewController.m in Sources */,
 				7BFB528920CC24C5006F66C0 /* ViewController.m in Sources */,
+				CD1CBC0221CCF03F0009AAC6 /* SXColorTrackingViewController.m in Sources */,
 				7BFB529420CC24C5006F66C0 /* main.m in Sources */,
+				CD1CBBF821CA3C670009AAC6 /* SXTabbarController.m in Sources */,
+				CD04009221D62E4E006AE8AA /* SXPhotoViewController.m in Sources */,
 				7BFB528620CC24C5006F66C0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,9 +604,11 @@
 		};
 		7BFB52AE20CC24C5006F66C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3DC04DB45CC112CD13C39E2 /* Pods-GPUImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X83ZETG4A4;
 				INFOPLIST_FILE = GPUImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chensx.GPUImage;
@@ -441,9 +619,11 @@
 		};
 		7BFB52AF20CC24C5006F66C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB34A9A512F89462E89F4031 /* Pods-GPUImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X83ZETG4A4;
 				INFOPLIST_FILE = GPUImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chensx.GPUImage;
